@@ -1,16 +1,16 @@
 //Licencia
-/* var edad = parseInt(prompt("¿Cual Es Su Edad?"));
+var edad = parseInt(prompt("¿Cual Es Su Edad?"));
 
 
 if (edad >= 18) {
     alert("usted es Mayor de Edad Puede Conducir");
 } else {
     alert("Lo Siento Mucho Usted tiene " + edad + " Años No Puede Conducir");
-} */
+}
 
 
 // Nota
-/* var inserteNumero = parseInt(prompt("Digite Un Número"));
+var inserteNumero = parseInt(prompt("Digite Un Número"));
 
 if (inserteNumero >= 1 && inserteNumero <= 25) {
     alert("Su Nota Final es 25");
@@ -20,7 +20,7 @@ if (inserteNumero >= 1 && inserteNumero <= 25) {
     alert("Su Nota Final es 75");
 } else if (inserteNumero >= 76 && inserteNumero <= 100) {
     alert("Su Nota Final es 100");
-} */
+}
 
 var contador = 1;
 var intentos = 30;
@@ -36,11 +36,4 @@ while (contador <= intentos) {
     } else {}
     contador++
 }
-document.write(contador)
-
-/* if (texto != "Cancelar" && texto != "cancelar") {
-    prompt("Cancele el Programa");
-
-} else {
-    document.write(prompt);
-} */
+document.write()
